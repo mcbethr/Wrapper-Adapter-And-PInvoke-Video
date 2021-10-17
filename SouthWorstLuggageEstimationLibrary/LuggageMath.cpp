@@ -5,65 +5,27 @@
 #include <stdio.h>
 #include "LuggageMath.h"
 
-// DLL internal state variables:
-static unsigned long long previous_;  // Previous value, if any
-static unsigned long long current_;   // Current sequence value
-static unsigned index_;               // Current seq. position
 
-// Initialize a Fibonacci relation sequence
-// such that F(0) = a, F(1) = b.
-// This function must be called before any other function.
-void fibonacci_init(
-    const unsigned long long a,
-    const unsigned long long b)
+struct LuggageDimensions {
+    float Length;
+    float Width;
+    float Height;
+};
+
+
+
+// Add the luggage item to the total luggage weight in stone.
+float CalculateTotalLuggageWeightInStone(float LuggageItemInStone, float TotalLuggageInStone)
 {
-    index_ = 0;
-    current_ = a;
-    previous_ = b; // see special case when initialized
+    return (LuggageItemInStone + TotalLuggageInStone);
+
 }
 
-// Produce the next value in the sequence.
-// Returns true on success, false on overflow.
-bool fibonacci_next()
+/// <summary>
+/// Add the luggage dimensions to the total dimensions.
+/// </summary>
+float CalculateTotalLuggageAreaInChain(float LuggageItemDimensions , float TotalLuggageDimensions)
 {
-    // check to see if we'd overflow result or position
-    if ((ULLONG_MAX - previous_ < current_) ||
-        (UINT_MAX == index_))
-    {
-        return false;
-    }
-
-    // Special case when index == 0, just return b value
-    if (index_ > 0)
-    {
-        // otherwise, calculate next sequence value
-        previous_ += current_;
-    }
-    std::swap(current_, previous_);
-    ++index_;
-    return true;
-}
-
-// Get the current value in the sequence.
-unsigned long long fibonacci_current()
-{
-    return current_;
-}
-
-// Get the current value in the sequence.
-int AddTwoNumbers(int one, int two)
-{
-    return current_;
-}
-
-// Get the current index position in the sequence.
-unsigned fibonacci_index()
-{
-    return index_;
-}
-
-void MyPrint(const char* message)
-{
-
-    printf("%s\\n", message);
+ 
+    return (LuggageItemDimensions + TotalLuggageDimensions);
 }

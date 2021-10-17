@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wop3Bq3iLcnyWP+fyGRdSjN1+nEMOzku9nj8lLofcOYqbF9El85zP79vuFu3A082T8apbh3gIFQc5FSFnS4nRA==",
+  "dgSpecHash": "zX8xUskn/O2KuogUEKESWnkUJeYhCsBTWDOWSJAA0dUzrYMPT533DZhT0pHE40hFGgVFN+CvZhevPcSuphXAgA==",
   "success": true,
-  "projectFilePath": "C:\\code\\Wrapper-Adapter-And-PInvoke\\SouthWorstLuggageWrapper\\SouthWorstLuggageWrapper.csproj",
+  "projectFilePath": "C:\\Code\\Wrapper-Adapter-And-PInvoke-Video\\SouthWorstLuggageWrapper\\LuggageWrapperExample.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SouthWorstLuggageEstimationLibrary", "SouthWorstLuggageEstimationLibrary.vcxproj", "{1ECDD72E-5E5A-4875-81FA-72E8002A58B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SouthWorstLuggageWrapper", "..\SouthWorstLuggageWrapper\SouthWorstLuggageWrapper.csproj", "{60A56C79-2690-47DD-A670-B9CD454B8C2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LuggageWrapperExample", "..\SouthWorstLuggageWrapper\LuggageWrapperExample.csproj", "{60A56C79-2690-47DD-A670-B9CD454B8C2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuggageCalculationsTest", "..\LuggageCalculationsTest\LuggageCalculationsTest.csproj", "{BF66258B-793F-4BB8-825C-6EB5B0599EAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,18 @@ Global
 		{60A56C79-2690-47DD-A670-B9CD454B8C2D}.Release|x64.Build.0 = Release|Any CPU
 		{60A56C79-2690-47DD-A670-B9CD454B8C2D}.Release|x86.ActiveCfg = Release|Any CPU
 		{60A56C79-2690-47DD-A670-B9CD454B8C2D}.Release|x86.Build.0 = Release|Any CPU
+		{BF66258B-793F-4BB8-825C-6EB5B0599EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF66258B-793F-4BB8-825C-6EB5B0599EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF66258B-793F-4BB8-825C-6EB5B0599EAC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BF66258B-793F-4BB8-825C-6EB5B0599EAC}.Debug|x64.Build.0 = Debug|Any CPU
+		{BF66258B-793F-4BB8-825C-6EB5B0599EAC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BF66258B-793F-4BB8-825C-6EB5B0599EAC}.Debug|x86.Build.0 = Debug|Any CPU
+		{BF66258B-793F-4BB8-825C-6EB5B0599EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF66258B-793F-4BB8-825C-6EB5B0599EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF66258B-793F-4BB8-825C-6EB5B0599EAC}.Release|x64.ActiveCfg = Release|Any CPU
+		{BF66258B-793F-4BB8-825C-6EB5B0599EAC}.Release|x64.Build.0 = Release|Any CPU
+		{BF66258B-793F-4BB8-825C-6EB5B0599EAC}.Release|x86.ActiveCfg = Release|Any CPU
+		{BF66258B-793F-4BB8-825C-6EB5B0599EAC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

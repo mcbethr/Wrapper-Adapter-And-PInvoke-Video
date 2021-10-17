@@ -1,19 +1,12 @@
-﻿  pch.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(498,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  pch.cpp
   dllmain.cpp
   LuggageMath.cpp
-C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageEstimationLibrary\LuggageMath.cpp(19,1): warning C4273: 'fibonacci_init': inconsistent dll linkage
-C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageEstimationLibrary\LuggageMath.h(22,33): message : see previous definition of 'fibonacci_init'
-C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageEstimationLibrary\LuggageMath.cpp(28,1): warning C4273: 'fibonacci_next': inconsistent dll linkage
-C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageEstimationLibrary\LuggageMath.h(28,33): message : see previous definition of 'fibonacci_next'
-C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageEstimationLibrary\LuggageMath.cpp(49,1): warning C4273: 'fibonacci_current': inconsistent dll linkage
-C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageEstimationLibrary\LuggageMath.h(31,47): message : see previous definition of 'fibonacci_current'
-C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageEstimationLibrary\LuggageMath.cpp(55,1): warning C4273: 'AddTwoNumbers': inconsistent dll linkage
-C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageEstimationLibrary\LuggageMath.h(37,32): message : see previous definition of 'AddTwoNumbers'
-C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageEstimationLibrary\LuggageMath.cpp(56,12): warning C4244: 'return': conversion from 'unsigned __int64' to 'int', possible loss of data
-C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageEstimationLibrary\LuggageMath.cpp(61,1): warning C4273: 'fibonacci_index': inconsistent dll linkage
-C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageEstimationLibrary\LuggageMath.h(34,37): message : see previous definition of 'fibonacci_index'
-C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageEstimationLibrary\LuggageMath.cpp(66,1): warning C4273: 'MyPrint': inconsistent dll linkage
-C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageEstimationLibrary\LuggageMath.h(40,33): message : see previous definition of 'MyPrint'
+C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\LuggageMath.cpp(19,1): warning C4273: 'CalculateTotalLuggageWeightInStone': inconsistent dll linkage
+C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\LuggageMath.h(14,34): message : see previous definition of 'CalculateTotalLuggageWeightInStone'
+C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\LuggageMath.cpp(28,1): warning C4273: 'CalculateTotalLuggageAreaInChain': inconsistent dll linkage
+C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\LuggageMath.h(17,34): message : see previous definition of 'CalculateTotalLuggageAreaInChain'
   Generating Code...
-     Creating library C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageEstimationLibrary\x64\Debug\SouthWorstLuggageEstimationLibrary.lib and object C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageEstimationLibrary\x64\Debug\SouthWorstLuggageEstimationLibrary.exp
-  SouthWorstLuggageEstimationLibrary.vcxproj -> C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageEstimationLibrary\x64\Debug\SouthWorstLuggageEstimationLibrary.dll
+     Creating library .\x64\Debug\SouthWorstLuggageEstimationLibrary.lib and object .\x64\Debug\SouthWorstLuggageEstimationLibrary.exp
+  SouthWorstLuggageEstimationLibrary.vcxproj -> C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\x64\Debug\SouthWorstLuggageEstimationLibrary.dll
