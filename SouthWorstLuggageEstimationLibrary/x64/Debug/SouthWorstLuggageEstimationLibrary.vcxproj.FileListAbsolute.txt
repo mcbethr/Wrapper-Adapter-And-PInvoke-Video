@@ -1,0 +1,1 @@
+C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageEstimationLibrary\x64\Debug\SouthWorstLuggageEstimationLibrary.dll

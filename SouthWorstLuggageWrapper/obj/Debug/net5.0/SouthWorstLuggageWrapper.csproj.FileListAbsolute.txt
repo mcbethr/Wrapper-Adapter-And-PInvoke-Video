@@ -1,0 +1,16 @@
+C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageWrapper\bin\Debug\net5.0\SouthWorstLuggageWrapper.exe
+C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageWrapper\bin\Debug\net5.0\SouthWorstLuggageWrapper.deps.json
+C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageWrapper\bin\Debug\net5.0\SouthWorstLuggageWrapper.runtimeconfig.json
+C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageWrapper\bin\Debug\net5.0\SouthWorstLuggageWrapper.runtimeconfig.dev.json
+C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageWrapper\bin\Debug\net5.0\SouthWorstLuggageWrapper.dll
+C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageWrapper\bin\Debug\net5.0\ref\SouthWorstLuggageWrapper.dll
+C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageWrapper\bin\Debug\net5.0\SouthWorstLuggageWrapper.pdb
+C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageWrapper\obj\Debug\net5.0\SouthWorstLuggageWrapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageWrapper\obj\Debug\net5.0\SouthWorstLuggageWrapper.AssemblyInfoInputs.cache
+C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageWrapper\obj\Debug\net5.0\SouthWorstLuggageWrapper.AssemblyInfo.cs
+C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageWrapper\obj\Debug\net5.0\SouthWorstLuggageWrapper.csproj.CoreCompileInputs.cache
+C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageWrapper\obj\Debug\net5.0\SouthWorstLuggageWrapper.dll
+C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageWrapper\obj\Debug\net5.0\ref\SouthWorstLuggageWrapper.dll
+C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageWrapper\obj\Debug\net5.0\SouthWorstLuggageWrapper.pdb
+C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageWrapper\obj\Debug\net5.0\SouthWorstLuggageWrapper.genruntimeconfig.cache
+C:\code\Wrapper-Adapter-And-PInvoke\SouthWorstLuggageWrapper\obj\Debug\net5.0\SouthWorstLuggageWrapper.csproj.AssemblyReference.cache
