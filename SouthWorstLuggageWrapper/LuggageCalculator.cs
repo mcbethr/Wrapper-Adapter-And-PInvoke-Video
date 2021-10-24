@@ -19,6 +19,10 @@ namespace LuggageWrapperExample
         private static class SouthWorstDLLAdapter
         {
 
+            [DllImport(@"SouthWorstLuggageEstimationLibrary.dll", CallingConvention = CallingConvention.Cdecl)]
+            [return: MarshalAs(UnmanagedType.BStr)]
+            static extern string ReturnAnAppendedString(string OriginalString, string StringToAppend);
+
 
             [DllImport("SouthWorstLuggageEstimationLibrary.dll", EntryPoint = "CalculateFuelConsumptionInGillFromBaggageInStone")]
             static extern float CalculateFuelConsumptionFromBaggage(float LuggageWeightInStone);
@@ -32,6 +36,11 @@ namespace LuggageWrapperExample
             public static float CalculateLuggageWeight(float LuggageWeightInStone)
             {
                 return CalculateFuelConsumptionFromBaggage(LuggageWeightInStone);
+            }
+
+            public static string AppendTwoStrings(string OriginalString, string StringToAppend)
+            {
+                return ReturnAnAppendedString(OriginalString, StringToAppend);
             }
 
         }
@@ -53,6 +62,13 @@ namespace LuggageWrapperExample
             _ExtraFuelConsumptionInGallons = ConvertGillToGallons(ExtraFuelConsumption);
                 
         }
+
+        public string ConcatinateTwoStrings(string OriginalString, string StringToAppend)
+        {
+            return SouthWorstDLLAdapter.AppendTwoStrings(OriginalString, StringToAppend);
+        }
+
+        #region conversions
         private float ConvertPoundsToStone(float pounds)
         {
             return (pounds / StoneWeight);
@@ -72,7 +88,7 @@ namespace LuggageWrapperExample
         {
             return (Gill /32);
         }
-
+        #endregion
     }
 
 }

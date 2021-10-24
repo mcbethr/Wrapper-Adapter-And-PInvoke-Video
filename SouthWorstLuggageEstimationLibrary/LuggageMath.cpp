@@ -30,3 +30,9 @@ float CalculateTotalLuggageAreaInChain(float LuggageItemDimensions , float Total
  
     return (LuggageItemDimensions + TotalLuggageDimensions);
 }
+
+char* ReturnAnAppendedString(char* OriginalString, char* StringToAppend) { 
+    
+    strcat_s(OriginalString, sizeof(StringToAppend),StringToAppend);
+    return(OriginalString);
+}

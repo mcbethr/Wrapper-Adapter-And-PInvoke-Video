@@ -31,5 +31,13 @@ namespace LuggageCalculationsTest
 
         }
 
+        [TestMethod]
+        public void TestConcatStrings()
+        {
+            LuggageCalculator LC = new LuggageCalculator();
+            string answer = LC.ConcatinateTwoStrings("Hello", "World");
+            Assert.AreEqual("HelloWorld", answer);
+            
+        }
     }
 }
