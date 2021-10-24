@@ -11,7 +11,7 @@
 
 
 // Add the baggage item to the total baggage weight in stone.
-extern "C" MATHLIBRARY_API float CalculateTotalLuggageWeightInStone(float BaggageItemInStone, float TotalBaggageInStone);
+extern "C" MATHLIBRARY_API float CalculateFuelConsumptionInGillFromBaggageInStone(float BaggageItemInStone);
 
 ///Add the baggage dimensions to the total baggage area.
 extern "C" MATHLIBRARY_API float CalculateTotalLuggageAreaInChain(float BagArea, float TotalLuggageDimensions);
