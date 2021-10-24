@@ -10,18 +10,18 @@ namespace LuggageWrapperExample
     public class LuggageCalculator
     {
 
-        float _TotalLuggageWeightInPounds;
+        float _ExtraFuelConsumptionInGallons;
 
         const float StoneWeight = 14; /// make this a constant in case it ever changes.
 
-        public float TotalLuggageWeight { get { return _TotalLuggageWeightInPounds; } }
+        public float ExtraFuelConsumption { get { return _ExtraFuelConsumptionInGallons; } }
 
         private static class SouthWorstDLLAdapter
         {
 
 
-            [DllImport("SouthWorstLuggageEstimationLibrary.dll", EntryPoint = "CalculateTotalLuggageWeightInStone")]
-            static extern float CalculateTotalLuggageWeightInStone(float one, float two);
+            [DllImport("SouthWorstLuggageEstimationLibrary.dll", EntryPoint = "CalculateFuelConsumptionInGillFromBaggageInStone")]
+            static extern float CalculateFuelConsumptionFromBaggage(float LuggageWeightInStone);
 
             /// <summary>
             /// This reaches out ti the 
@@ -29,9 +29,9 @@ namespace LuggageWrapperExample
             /// <param name="LuggageWeightInStone"></param>
             /// <param name="TotalWeight"></param>
             /// <returns></returns>
-            public static float CalculateLuggageWeight(float LuggageWeightInStone, float TotalWeightInStone)
+            public static float CalculateLuggageWeight(float LuggageWeightInStone)
             {
-                return CalculateTotalLuggageWeightInStone(LuggageWeightInStone, TotalWeightInStone);
+                return CalculateFuelConsumptionFromBaggage(LuggageWeightInStone);
             }
 
         }
@@ -39,15 +39,18 @@ namespace LuggageWrapperExample
 
         public LuggageCalculator()
         {
-            _TotalLuggageWeightInPounds = 0;
+            _ExtraFuelConsumptionInGallons = 0;
         }
 
         public void AddLuggageToAircraft(float luggageWeightInPounds)
         {
+            //perform the baggage conversions
             float LuggageInStone = ConvertPoundsToStone(luggageWeightInPounds);
-            float TotalLuggageInStone = ConvertPoundsToStone(_TotalLuggageWeightInPounds);
-            float NewTotalLuggageInStone = SouthWorstDLLAdapter.CalculateLuggageWeight(LuggageInStone, TotalLuggageWeight);
-            _TotalLuggageWeightInPounds = ConvertStoneToPounds(NewTotalLuggageInStone);
+
+            float ExtraFuelConsumption = SouthWorstDLLAdapter.CalculateLuggageWeight(LuggageInStone);
+
+
+            _ExtraFuelConsumptionInGallons = ConvertGillToGallons(ExtraFuelConsumption);
                 
         }
         private float ConvertPoundsToStone(float pounds)
@@ -58,6 +61,16 @@ namespace LuggageWrapperExample
         private float ConvertStoneToPounds(float stone)
         {
             return (stone * 14);
+        }
+
+        private float ConvertGallonsToGill(float Gallons)
+        {
+            return (Gallons * 32);
+        }
+
+        private float ConvertGillToGallons(float Gill)
+        {
+            return (Gill /32);
         }
 
     }

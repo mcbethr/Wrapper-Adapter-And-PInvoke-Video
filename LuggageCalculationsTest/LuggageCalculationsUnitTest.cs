@@ -14,7 +14,7 @@ namespace LuggageCalculationsTest
             LuggageCalculator LC = new LuggageCalculator();
             LC.AddLuggageToAircraft(14);
 
-            Assert.AreEqual(14, LC.TotalLuggageWeight);
+            Assert.AreEqual(0.015625, LC.ExtraFuelConsumption);
 
 
         }
@@ -27,7 +27,7 @@ namespace LuggageCalculationsTest
             LuggageCalculator LC = new LuggageCalculator();
             LC.AddLuggageToAircraft(21);
 
-            Assert.AreEqual(21, LC.TotalLuggageWeight);
+            Assert.AreEqual(0.0234375, LC.ExtraFuelConsumption);
 
         }
 

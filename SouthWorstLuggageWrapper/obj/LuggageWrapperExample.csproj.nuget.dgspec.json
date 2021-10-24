@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\code\\Wrapper-Adapter-And-PInvoke\\Wrapper-Adapter-And-PInvoke-Video\\SouthWorstLuggageWrapper\\LuggageWrapperExample.csproj": {}
+    "C:\\Code\\Wrapper-Adapter-And-PInvoke-Video\\SouthWorstLuggageWrapper\\LuggageWrapperExample.csproj": {}
   },
   "projects": {
-    "C:\\code\\Wrapper-Adapter-And-PInvoke\\Wrapper-Adapter-And-PInvoke-Video\\SouthWorstLuggageWrapper\\LuggageWrapperExample.csproj": {
+    "C:\\Code\\Wrapper-Adapter-And-PInvoke-Video\\SouthWorstLuggageWrapper\\LuggageWrapperExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\code\\Wrapper-Adapter-And-PInvoke\\Wrapper-Adapter-And-PInvoke-Video\\SouthWorstLuggageWrapper\\LuggageWrapperExample.csproj",
+        "projectUniqueName": "C:\\Code\\Wrapper-Adapter-And-PInvoke-Video\\SouthWorstLuggageWrapper\\LuggageWrapperExample.csproj",
         "projectName": "LuggageWrapperExample",
-        "projectPath": "C:\\code\\Wrapper-Adapter-And-PInvoke\\Wrapper-Adapter-And-PInvoke-Video\\SouthWorstLuggageWrapper\\LuggageWrapperExample.csproj",
-        "packagesPath": "C:\\Users\\ryanm\\.nuget\\packages\\",
-        "outputPath": "C:\\code\\Wrapper-Adapter-And-PInvoke\\Wrapper-Adapter-And-PInvoke-Video\\SouthWorstLuggageWrapper\\obj\\",
+        "projectPath": "C:\\Code\\Wrapper-Adapter-And-PInvoke-Video\\SouthWorstLuggageWrapper\\LuggageWrapperExample.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\Wrapper-Adapter-And-PInvoke-Video\\SouthWorstLuggageWrapper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ryanm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

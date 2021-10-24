@@ -15,11 +15,11 @@ struct LuggageDimensions {
 
 
 // Accept luggage weight in stone and return addition fuel needed in Gil
-float CalculateFuelConsumptionInGillFromBaggageInStone(float LuggageItemInStone, float TotalLuggageInStone)
+float CalculateFuelConsumptionInGillFromBaggageInStone(float LuggageItemInStone)
 {
     //This is a simple formula, but imagine a propriatary algorithm that 
-    //and airline uses to estimate how mass of luggage effects fuel economy.
-    return ((LuggageItemInStone + TotalLuggageInStone) * .5 );
+    //an airline uses to estimate how mass of luggage effects fuel economy.
+    return ((LuggageItemInStone) * .5 );
 }
 
 /// <summary>

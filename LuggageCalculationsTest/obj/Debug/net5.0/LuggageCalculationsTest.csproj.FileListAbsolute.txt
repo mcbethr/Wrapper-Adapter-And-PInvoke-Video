@@ -104,7 +104,6 @@ C:\Code\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\bin\Debug\net5
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\bin\Debug\net5.0\LuggageWrapperExample.exe
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\bin\Debug\net5.0\LuggageWrapperExample.dll
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\bin\Debug\net5.0\LuggageWrapperExample.pdb
-C:\Code\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\bin\Debug\net5.0\SouthWorstLuggageEstimationLibrary.dll
 C:\code\Wrapper-Adapter-And-PInvoke\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\bin\Debug\net5.0\CoverletSourceRootsMapping
 C:\code\Wrapper-Adapter-And-PInvoke\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\bin\Debug\net5.0\testhost.exe
 C:\code\Wrapper-Adapter-And-PInvoke\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\bin\Debug\net5.0\testhost.dll
@@ -212,3 +211,4 @@ C:\code\Wrapper-Adapter-And-PInvoke\Wrapper-Adapter-And-PInvoke-Video\LuggageCal
 C:\code\Wrapper-Adapter-And-PInvoke\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\obj\Debug\net5.0\ref\LuggageCalculationsTest.dll
 C:\code\Wrapper-Adapter-And-PInvoke\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\obj\Debug\net5.0\LuggageCalculationsTest.pdb
 C:\code\Wrapper-Adapter-And-PInvoke\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\obj\Debug\net5.0\LuggageCalculationsTest.genruntimeconfig.cache
+C:\Code\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\bin\Debug\net5.0\SouthWorstLuggageEstimationLibrary.dll

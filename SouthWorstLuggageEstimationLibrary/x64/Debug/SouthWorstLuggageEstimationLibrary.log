@@ -3,9 +3,11 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\
   pch.cpp
   dllmain.cpp
   LuggageMath.cpp
-C:\code\Wrapper-Adapter-And-PInvoke\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\LuggageMath.cpp(22,56): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\code\Wrapper-Adapter-And-PInvoke\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\LuggageMath.cpp(29,1): warning C4273: 'CalculateTotalLuggageAreaInChain': inconsistent dll linkage
-C:\code\Wrapper-Adapter-And-PInvoke\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\LuggageMath.h(17,34): message : see previous definition of 'CalculateTotalLuggageAreaInChain'
+C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\LuggageMath.cpp(19,1): warning C4273: 'CalculateFuelConsumptionInGillFromBaggageInStone': inconsistent dll linkage
+C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\LuggageMath.h(14,34): message : see previous definition of 'CalculateFuelConsumptionInGillFromBaggageInStone'
+C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\LuggageMath.cpp(22,34): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\LuggageMath.cpp(29,1): warning C4273: 'CalculateTotalLuggageAreaInChain': inconsistent dll linkage
+C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\LuggageMath.h(17,34): message : see previous definition of 'CalculateTotalLuggageAreaInChain'
   Generating Code...
      Creating library .\x64\Debug\SouthWorstLuggageEstimationLibrary.lib and object .\x64\Debug\SouthWorstLuggageEstimationLibrary.exp
-  SouthWorstLuggageEstimationLibrary.vcxproj -> C:\code\Wrapper-Adapter-And-PInvoke\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\x64\Debug\SouthWorstLuggageEstimationLibrary.dll
+  SouthWorstLuggageEstimationLibrary.vcxproj -> C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\x64\Debug\SouthWorstLuggageEstimationLibrary.dll
