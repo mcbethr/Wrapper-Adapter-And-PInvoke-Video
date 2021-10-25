@@ -8,6 +8,8 @@ C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\Lug
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\LuggageMath.cpp(22,34): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\LuggageMath.cpp(29,1): warning C4273: 'CalculateTotalLuggageAreaInChain': inconsistent dll linkage
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\LuggageMath.h(17,34): message : see previous definition of 'CalculateTotalLuggageAreaInChain'
+C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\LuggageMath.cpp(34,74): warning C4273: 'ReturnAnAppendedString': inconsistent dll linkage
+C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\LuggageMath.h(20,34): message : see previous definition of 'ReturnAnAppendedString'
   Generating Code...
      Creating library .\x64\Debug\SouthWorstLuggageEstimationLibrary.lib and object .\x64\Debug\SouthWorstLuggageEstimationLibrary.exp
   SouthWorstLuggageEstimationLibrary.vcxproj -> C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\x64\Debug\SouthWorstLuggageEstimationLibrary.dll

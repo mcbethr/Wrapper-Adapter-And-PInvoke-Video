@@ -10,9 +10,11 @@
 // SouthWorst Luggage Calculations Copyright(c) 1984
 
 
-// Add the baggage item to the total baggage weight in stone.
+// Determine the baggage fuel consumption cost
 extern "C" MATHLIBRARY_API float CalculateFuelConsumptionInGillFromBaggageInStone(float BaggageItemInStone);
 
 ///Add the baggage dimensions to the total baggage area.
 extern "C" MATHLIBRARY_API float CalculateTotalLuggageAreaInChain(float BagArea, float TotalLuggageDimensions);
 
+///How to append two strings.
+extern "C" MATHLIBRARY_API char* ReturnAnAppendedString(char* OriginalString, char* StringToAppend);
