@@ -16,7 +16,6 @@ C:\code\Wrapper-Adapter-And-PInvoke\Wrapper-Adapter-And-PInvoke-Video\SouthWorst
 C:\code\Wrapper-Adapter-And-PInvoke\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageWrapper\obj\Debug\net5.0\LuggageWrapperExample.pdb
 C:\code\Wrapper-Adapter-And-PInvoke\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageWrapper\obj\Debug\net5.0\LuggageWrapperExample.genruntimeconfig.cache
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageWrapper\bin\Debug\net5.0\LuggageWrapperExample.exe
-C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageWrapper\bin\Debug\net5.0\SouthWorstLuggageEstimationLibrary.dll
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageWrapper\bin\Debug\net5.0\LuggageWrapperExample.deps.json
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageWrapper\bin\Debug\net5.0\LuggageWrapperExample.runtimeconfig.json
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageWrapper\bin\Debug\net5.0\LuggageWrapperExample.runtimeconfig.dev.json
@@ -31,3 +30,4 @@ C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageWrapper\obj\Debug\net
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageWrapper\obj\Debug\net5.0\ref\LuggageWrapperExample.dll
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageWrapper\obj\Debug\net5.0\LuggageWrapperExample.pdb
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageWrapper\obj\Debug\net5.0\LuggageWrapperExample.genruntimeconfig.cache
+C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageWrapper\bin\Debug\net5.0\SouthWorstLuggageEstimationLibrary.dll

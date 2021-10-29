@@ -16,19 +16,27 @@ namespace LuggageWrapperExample
 
         public float ExtraFuelConsumption { get { return _ExtraFuelConsumptionInGallons; } }
 
+        //[StructLayout(LayoutKind.Auto)] //Can't do this.
+        [StructLayout(LayoutKind.Auto)]
+        public struct CargoHoldDimensions
+        {
+            public float Length;
+            public float Width;
+            public float Height;
+        };
+
         private static class SouthWorstDLLAdapter
         {
 
-            [DllImport(@"SouthWorstLuggageEstimationLibrary.dll", CallingConvention = CallingConvention.Cdecl)]
-            [return: MarshalAs(UnmanagedType.BStr)]
-            static extern string ReturnAnAppendedString(string OriginalString, string StringToAppend);
 
+            [DllImport("SouthWorstLuggageEstimationLibrary.dll", CallingConvention = CallingConvention.Cdecl, EntryPoint = "CalculateCargoHoldDimensionsInChain")]
+            static extern float CalculateCargoHoldDimensionsInChain(CargoHoldDimensions CargoHold); 
 
-            [DllImport("SouthWorstLuggageEstimationLibrary.dll", EntryPoint = "CalculateFuelConsumptionInGillFromBaggageInStone")]
+             [DllImport("SouthWorstLuggageEstimationLibrary.dll", EntryPoint = "CalculateFuelConsumptionInGillFromBaggageInStone")]
             static extern float CalculateFuelConsumptionFromBaggage(float LuggageWeightInStone);
 
             /// <summary>
-            /// This reaches out ti the 
+            /// This reaches out to the unmanaged code.
             /// </summary>
             /// <param name="LuggageWeightInStone"></param>
             /// <param name="TotalWeight"></param>
@@ -38,10 +46,11 @@ namespace LuggageWrapperExample
                 return CalculateFuelConsumptionFromBaggage(LuggageWeightInStone);
             }
 
-            public static string AppendTwoStrings(string OriginalString, string StringToAppend)
+            public static float CalculateCargoArea(CargoHoldDimensions CargoHold)
             {
-                return ReturnAnAppendedString(OriginalString, StringToAppend);
+                return CalculateCargoHoldDimensionsInChain(CargoHold);
             }
+
 
         }
 
@@ -63,12 +72,13 @@ namespace LuggageWrapperExample
                 
         }
 
-        public string ConcatinateTwoStrings(string OriginalString, string StringToAppend)
+        public float CalculateCargoHold(CargoHoldDimensions CargoHold)
         {
-            return SouthWorstDLLAdapter.AppendTwoStrings(OriginalString, StringToAppend);
+            float CargoHoldDimensions = SouthWorstDLLAdapter.CalculateCargoArea(CargoHold);
+            return CargoHoldDimensions;
         }
 
-        #region conversions
+        #region Conversions
         private float ConvertPoundsToStone(float pounds)
         {
             return (pounds / StoneWeight);

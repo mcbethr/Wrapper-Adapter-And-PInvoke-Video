@@ -6,13 +6,6 @@
 #include "LuggageMath.h"
 
 
-struct LuggageDimensions {
-    float Length;
-    float Width;
-    float Height;
-};
-
-
 
 // Accept luggage weight in stone and return addition fuel needed in Gil
 float CalculateFuelConsumptionInGillFromBaggageInStone(float LuggageItemInStone)
@@ -31,8 +24,10 @@ float CalculateTotalLuggageAreaInChain(float LuggageItemDimensions , float Total
     return (LuggageItemDimensions + TotalLuggageDimensions);
 }
 
-char* ReturnAnAppendedString(char* OriginalString, char* StringToAppend) { 
-    
-    strcat_s(OriginalString, sizeof(StringToAppend),StringToAppend);
-    return(OriginalString);
+float CalculateCargoHoldDimensionsInChain(CargoHoldDimensions CargoHold)
+{
+    return (CargoHold.Length * CargoHold.Width * CargoHold.Height);
+        
 }
+
+

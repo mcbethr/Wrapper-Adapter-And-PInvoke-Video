@@ -117,7 +117,6 @@ C:\Code\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\bin\Debug\net5
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\bin\Debug\net5.0\Microsoft.TestPlatform.AdapterUtilities.dll
-C:\Code\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\bin\Debug\net5.0\SouthWorstLuggageEstimationLibrary.dll
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\bin\Debug\net5.0\LuggageCalculationsTest.deps.json
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\bin\Debug\net5.0\LuggageCalculationsTest.runtimeconfig.json
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\bin\Debug\net5.0\LuggageCalculationsTest.runtimeconfig.dev.json
@@ -212,3 +211,4 @@ C:\Code\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\obj\Debug\net5
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\obj\Debug\net5.0\ref\LuggageCalculationsTest.dll
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\obj\Debug\net5.0\LuggageCalculationsTest.pdb
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\obj\Debug\net5.0\LuggageCalculationsTest.genruntimeconfig.cache
+C:\Code\Wrapper-Adapter-And-PInvoke-Video\LuggageCalculationsTest\bin\Debug\net5.0\SouthWorstLuggageEstimationLibrary.dll

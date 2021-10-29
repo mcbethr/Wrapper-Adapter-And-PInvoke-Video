@@ -1,6 +1,7 @@
 using LuggageWrapperExample;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
+
 namespace LuggageCalculationsTest
 {
     [TestClass]
@@ -32,12 +33,19 @@ namespace LuggageCalculationsTest
         }
 
         [TestMethod]
-        public void TestConcatStrings()
+        public void CalculateAreaWithStructure()
         {
-            LuggageCalculator LC = new LuggageCalculator();
-            string answer = LC.ConcatinateTwoStrings("Hello", "World");
-            Assert.AreEqual("HelloWorld", answer);
+            LuggageCalculator.CargoHoldDimensions holdDimensions = new LuggageCalculator.CargoHoldDimensions();
+            holdDimensions.Length = 7;
+            holdDimensions.Width = 5;
+            holdDimensions.Height = 3;
             
+
+            LuggageCalculator LC = new LuggageCalculator();
+            float CargoHoldArea = LC.CalculateCargoHold(holdDimensions);
+            Assert.AreEqual(105, CargoHoldArea);
+
         }
+
     }
 }
