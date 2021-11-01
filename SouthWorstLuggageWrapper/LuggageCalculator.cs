@@ -17,7 +17,8 @@ namespace LuggageWrapperExample
         public float ExtraFuelConsumption { get { return _ExtraFuelConsumptionInGallons; } }
 
         //[StructLayout(LayoutKind.Auto)] //Can't do this.
-        [StructLayout(LayoutKind.Auto)]
+        //If you want to see the test fail, switch the below LayoutKind to Auto.
+        [StructLayout(LayoutKind.Sequential)]
         public struct CargoHoldDimensions
         {
             public float Length;
@@ -30,26 +31,11 @@ namespace LuggageWrapperExample
 
 
             [DllImport("SouthWorstLuggageEstimationLibrary.dll", CallingConvention = CallingConvention.Cdecl, EntryPoint = "CalculateCargoHoldDimensionsInChain")]
-            static extern float CalculateCargoHoldDimensionsInChain(CargoHoldDimensions CargoHold); 
+            public static extern float CalculateCargoHoldDimensionsInChain(CargoHoldDimensions CargoHold); 
 
              [DllImport("SouthWorstLuggageEstimationLibrary.dll", EntryPoint = "CalculateFuelConsumptionInGillFromBaggageInStone")]
-            static extern float CalculateFuelConsumptionFromBaggage(float LuggageWeightInStone);
+            public static extern float CalculateFuelConsumptionInGillFromBaggageInStone(float LuggageWeightInStone);
 
-            /// <summary>
-            /// This reaches out to the unmanaged code.
-            /// </summary>
-            /// <param name="LuggageWeightInStone"></param>
-            /// <param name="TotalWeight"></param>
-            /// <returns></returns>
-            public static float CalculateLuggageWeight(float LuggageWeightInStone)
-            {
-                return CalculateFuelConsumptionFromBaggage(LuggageWeightInStone);
-            }
-
-            public static float CalculateCargoArea(CargoHoldDimensions CargoHold)
-            {
-                return CalculateCargoHoldDimensionsInChain(CargoHold);
-            }
 
 
         }
@@ -65,7 +51,7 @@ namespace LuggageWrapperExample
             //perform the baggage conversions
             float LuggageInStone = ConvertPoundsToStone(luggageWeightInPounds);
 
-            float ExtraFuelConsumption = SouthWorstDLLAdapter.CalculateLuggageWeight(LuggageInStone);
+            float ExtraFuelConsumption = SouthWorstDLLAdapter.CalculateFuelConsumptionInGillFromBaggageInStone(LuggageInStone);
 
 
             _ExtraFuelConsumptionInGallons = ConvertGillToGallons(ExtraFuelConsumption);
@@ -74,7 +60,7 @@ namespace LuggageWrapperExample
 
         public float CalculateCargoHold(CargoHoldDimensions CargoHold)
         {
-            float CargoHoldDimensions = SouthWorstDLLAdapter.CalculateCargoArea(CargoHold);
+            float CargoHoldDimensions = SouthWorstDLLAdapter.CalculateCargoHoldDimensionsInChain(CargoHold);
             return CargoHoldDimensions;
         }
 

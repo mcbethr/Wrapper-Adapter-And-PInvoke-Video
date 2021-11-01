@@ -31,3 +31,4 @@ C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageWrapper\obj\Debug\net
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageWrapper\obj\Debug\net5.0\LuggageWrapperExample.pdb
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageWrapper\obj\Debug\net5.0\LuggageWrapperExample.genruntimeconfig.cache
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageWrapper\bin\Debug\net5.0\SouthWorstLuggageEstimationLibrary.dll
+C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageWrapper\obj\Debug\net5.0\LuggageWrapperExample.csproj.AssemblyReference.cache

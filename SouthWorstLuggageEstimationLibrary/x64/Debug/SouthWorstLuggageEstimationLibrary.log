@@ -1,7 +1,5 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(498,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
-  pch.cpp
-  dllmain.cpp
   LuggageMath.cpp
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\LuggageMath.cpp(12,1): warning C4273: 'CalculateFuelConsumptionInGillFromBaggageInStone': inconsistent dll linkage
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\LuggageMath.h(20,34): message : see previous definition of 'CalculateFuelConsumptionInGillFromBaggageInStone'
@@ -10,6 +8,6 @@ C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\Lug
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\LuggageMath.h(23,34): message : see previous definition of 'CalculateTotalLuggageAreaInChain'
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\LuggageMath.cpp(28,1): warning C4273: 'CalculateCargoHoldDimensionsInChain': inconsistent dll linkage
 C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\LuggageMath.h(25,34): message : see previous definition of 'CalculateCargoHoldDimensionsInChain'
-  Generating Code...
+  LINK : .\x64\Debug\SouthWorstLuggageEstimationLibrary.dll not found or not built by the last incremental link; performing full link
      Creating library .\x64\Debug\SouthWorstLuggageEstimationLibrary.lib and object .\x64\Debug\SouthWorstLuggageEstimationLibrary.exp
   SouthWorstLuggageEstimationLibrary.vcxproj -> C:\Code\Wrapper-Adapter-And-PInvoke-Video\SouthWorstLuggageEstimationLibrary\x64\Debug\SouthWorstLuggageEstimationLibrary.dll
